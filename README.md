@@ -19,7 +19,7 @@ This repository serves as a backup and version-controlled history of my NixOS co
 To use my NixOS configurations, clone this repository and follow these steps:
 
 ```bash
-git clone https://github.com/yourusername/nixos-config.git
+git clone https://github.com/xanmoy/nixos-config.git
 cd nixos-config
 ```
 
