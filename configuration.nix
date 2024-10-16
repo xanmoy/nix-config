@@ -104,6 +104,8 @@
   gnome3.gnome-tweaks
   gnome3.gnome-shell
   gnome3.gnome-shell-extensions
+  pkgs.gnome-browser-connector
+  vscode
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
