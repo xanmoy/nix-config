@@ -100,6 +100,10 @@
   #  wget
   git
   google-chrome
+  gnome3.gnome-terminal
+  gnome3.gnome-tweaks
+  gnome3.gnome-shell
+  gnome3.gnome-shell-extensions
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
