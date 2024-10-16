@@ -107,8 +107,14 @@
   gnome3.gnome-shell-extensions
   pkgs.gnome-browser-connector
   vscode
+  gcc
+  gdb
   zsh
+  gnumake
   jetbrains-toolbox
+  jdk
+  go
+  rustc
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
