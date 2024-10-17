@@ -100,12 +100,14 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
-  git
+  # Gnome Applications
   gnome3.gnome-terminal
   gnome3.gnome-tweaks
   gnome3.gnome-shell
   gnome3.gnome-shell-extensions
   pkgs.gnome-browser-connector
+  # Other Packages
+  git
   vscode
   gcc
   gdb

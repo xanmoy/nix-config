@@ -1,4 +1,6 @@
 # NixOs Commands
+# ===============
+# The following commands are specific to NixOS.
 
 
 ## Edit Your Configuration File:
@@ -24,6 +26,17 @@ cp /etc/nixos/hardware-configuration.nix ~/nixos-config/
 ```
 ```bash
 cp /etc/nixos/configuration.nix ~/nixos-config/
+```
+
+## Fix Machine Using Git
+
+```bash
+sudo cp -r ~/nixos-config/hardware-configuration.nix /etc/nixos/hardware-configuration.nix
+
+```
+
+```bash
+sudo cp -r ~/nixos-config/configuration.nix /etc/nixos/configuration.nix 
 ```
 
 ## Update Nix Channels:
